@@ -1,3 +1,6 @@
+/*
+https://www.geeksforgeeks.org/vector-in-cpp-stl/
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
