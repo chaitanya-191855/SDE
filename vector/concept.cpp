@@ -14,6 +14,11 @@ int main(){
         cout<<ele<<" ";
     }
     cout<<"\n";
+    cout << ve.at(4);
+  
+    cout << ve.front();
+  
+    cout << ve.back();
     
     vector<int>::iterator it=ve.begin();
     ve.insert(it+4,7); // insert element 7 in 4 position syn: insert(position,val)
