@@ -31,3 +31,17 @@ vector<string> graycode(int n)
     for (i = 0 ; i < arr.size() ; i++ )
         ve.push_back(arr[i]);
     return ve;
+
+
+
+-------------------------------------------
+example:
+        n=2;
+        arr={0,1}
+        first for loop 
+                inner 1st for loop 
+                        it set arr{0,1,1,0}
+                2nd for loop
+                        it set arr{00,01,1,0}
+                3rd for loop
+                        it set arr{00,01,11,10}
