@@ -16,3 +16,15 @@ queue<int> modifyQueue(queue<int> q, int k) {
    }
     return qe;
 }
+----------------------------------------------------
+Input:
+5 3
+1 2 3 4 5
+
+Output: 
+3 2 1 4 5
+
+Explanation: 
+After reversing the given
+input from the 3rd position the resultant
+output will be 3 2 1 4 5.
